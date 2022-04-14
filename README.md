@@ -15,6 +15,7 @@ The challenge in the even-parity problem (Parity) \cite{harding2009self, koza199
 ## Robot Rontrol: ANT
 For the robot control application, GP is used to evolve solutions to the well known artificial ant problem (ANT) \cite{iba:1996:aigp2, koza1992genetic}. The challenge in ANT is to evolve a routine for navigating a robotic ant on a virtual field to help it find food items within a given time limit. 
 
+## Classification with GPML
 The classification application uses a hybridisation of GP with machine learning (GPML). Like MLR-GP in Chapter~\ref{Chapter8}, the hybridisation involves GP and machine learning (GPML), whereas here it is for classification; GP engineers a set of features and then logistic regression \cite{kleinbaum2002logistic} uses these features to build a classification model. 
 
 
